@@ -151,10 +151,38 @@ body {
 }
 
 .site-footer {
+  color: #2e2f42;
 }
 
 .footer-text {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+/* Ek Gereksinimler */
+
+/* 1. <header> içinde ul listesi */
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Hover ve Focus durumları */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* 3. Görsellerin genişliği */
+img {
+  width: 360px;
+  display: block;
+  max-width: 100%;
+}
+
+/* 4. Button stilinin odaklanma durumu */
+button:focus {
+  outline: none;
 }
