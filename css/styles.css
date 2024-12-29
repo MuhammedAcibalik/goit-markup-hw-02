@@ -160,29 +160,40 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Ek Gereksinimler */
+/* Görsel genişliklerini doğru ayarlama */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-/* 1. <header> içinde ul listesi */
-header ul {
+/* Button focus için outline kaldırma */
+button:focus {
+  outline: none;
+}
+
+/* Liste stilleri için düzenleme */
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* 2. Hover ve Focus durumları */
+/* Genel bağlantı hover ve focus efekti */
 a:hover,
 a:focus {
   text-decoration: none;
 }
 
-/* 3. Görsellerin genişliği */
-img {
-  width: 360px;
-  display: block;
-  max-width: 100%;
+/* Section içindeki liste maddeleri */
+.team-item,
+.portfolio-item {
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
-/* 4. Button stilinin odaklanma durumu */
-button:focus {
-  outline: none;
+/* Portfolio görsellerinin genişliği */
+.portfolio-item img {
+  width: 360px;
 }
