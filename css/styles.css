@@ -1,16 +1,11 @@
 /* Genel Ayarlar */
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 /* Navbar */
@@ -86,7 +81,7 @@ body {
   color: #ffffff;
 }
 
-.hero-title {
+.hero-section h1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -162,62 +157,34 @@ body {
   color: #434455;
 }
 
-
-
-/* Team Section */
-.our-team {
+/* Portfolio Section */
+.portfolio {
   background-color: #f4f4fd;
   padding: 3rem 1rem;
   text-align: center;
 }
 
-.team-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.team-member {
-  text-align: center;
-}
-
-.team-member img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-}
-
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  margin-top: 1rem;
-}
-
-.team-role {
-  font-size: 16px;
-  color: #434455;
-}
-
-/* Portfolio Section */
-.portfolio {
-  padding: 3rem 1rem;
-  background-color: #ffffff;
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 2rem;
 }
 
 .portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 
 .portfolio-item {
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -230,7 +197,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.portfolio-title {
+.portfolio-item h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -239,7 +206,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.portfolio-text {
+.portfolio-item p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -247,28 +214,30 @@ body {
 }
 
 /* Footer */
-.footer-content {
+.footer {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  color: #4d5ae5;
 }
 
 .footer-highlight {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
