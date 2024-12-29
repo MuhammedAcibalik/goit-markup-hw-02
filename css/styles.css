@@ -124,6 +124,10 @@ body {
 }
 
 /* Portfolio section */
+.portfolio-item {
+  background-color: #ffffff;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
