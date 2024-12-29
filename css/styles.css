@@ -53,14 +53,16 @@ body {
 
 .hero-section {
   background-color: #2e2f42;
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .hero-button {
@@ -72,11 +74,19 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+#features {
+  padding: 50px 20px;
+  text-align: center;
 }
 
 .features-title {
@@ -85,6 +95,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 10px;
 }
 
 .features-text {
@@ -96,19 +107,29 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
+  padding: 50px 20px;
+  text-align: center;
 }
 
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 30px;
 }
 
 .team-item {
-  background-color: #ffffff;
+  display: inline-block;
+  margin: 0 10px 20px;
+  text-align: center;
+}
+
+.team-item img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .team-item-title {
@@ -117,6 +138,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 10px;
 }
 
 .team-item-text {
@@ -126,13 +148,30 @@ body {
   color: #434455;
 }
 
+#portfolio {
+  padding: 50px 20px;
+  text-align: center;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 30px;
+}
+
+.portfolio-item {
+  display: inline-block;
+  margin: 0 10px 20px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .portfolio-item-title {
@@ -141,6 +180,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 10px;
 }
 
 .portfolio-item-text {
@@ -151,49 +191,13 @@ body {
 }
 
 .site-footer {
-  color: #2e2f42;
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
 }
 
 .footer-text {
   line-height: 1.5;
-  color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-/* Görsel genişliklerini doğru ayarlama */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Button focus için outline kaldırma */
-button:focus {
-  outline: none;
-}
-
-/* Liste stilleri için düzenleme */
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Genel bağlantı hover ve focus efekti */
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-/* Section içindeki liste maddeleri */
-.team-item,
-.portfolio-item {
-  padding: 16px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  background-color: #ffffff;
-}
-
-/* Portfolio görsellerinin genişliği */
-.portfolio-item img {
-  width: 360px;
 }
